@@ -14,8 +14,8 @@ class TransaksiSeeder extends Seeder
     public function run(): void
     {
         $transaksi = new Transaksi();
-        $transaksi->tanggal_beli = '28/09/2023';
-        $transaksi->costumer_id = '1';
+        $transaksi->tanggal_beli = '2023/09/09';
+        $transaksi->customer_id = '1';
         $transaksi->obat_id = '1';
         $transaksi->jumlah_beli = '5';
         $transaksi->total_harga = '900000';
